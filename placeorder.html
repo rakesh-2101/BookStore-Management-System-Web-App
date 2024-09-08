@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="forgot.css">
+</head>
+<body>
+    
+    <p style="color:red;"></p>
+    <form action="placeorder.php" method="POST">
+      <table align="center">
+        <h1>PLACE ORDER</h1>
+        <tr height="50">
+            <td>YOUR NAME:</td>
+            <td><input type="text" name="username" id="username"></td>
+        </tr>
+          <tr height="50">
+              <td>EMAIL ID:</td>
+              <td><input type="email" name="useremail" id="useremail"></td>
+          </tr>
+         
+          <tr height="50">
+              <td>DELIVERY ADDRESS:</td>
+              <td><input type="text" name="address" id="address"></td>
+          </tr>
+          <tr height="50">
+               <td>CITY:</td>
+               <td><input type="text" name="city" id="city"></td>
+          </tr>
+          <tr height="50">
+              <td>QUANTITY:</td>
+              <td><input type="number" name="quantity" id="quantity"></td>
+           </tr>
+           <tr height="50">
+              <td>BOOK ISBN NO:</td>
+              <td><input type="number" name="isbn" id="isbn"></td>
+           </tr>
+          <tr>
+              <td><a style="color:red" href="home.php">Back to home Page</a></td>
+              <td><input type="submit" name="Submit" value="submit"></td>
+          </tr>
+      
+      
+        
+          
+     
+        </table>
+    </form>
+</body>
+</html>

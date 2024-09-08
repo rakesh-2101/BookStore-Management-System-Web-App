@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Registration</title>
+    <link rel="stylesheet" href="adminregister.css">
+    
+</head>
+<body>
+    
+    <div class="a">
+    
+    <h1>Admin Signup</h1>
+    <form action="adminregister.php" method="POST">
+        <p style="font-size:18px">
+            <LABEL FOR="adminname"><b>Adminname:</b></LABEL>
+            <INPUT TYPE="text"  PLACEHOLDER="Enter adminname" REQUIRED NAME="adminname">
+        </p>
+        <p style="font-size:18px">
+            <LABEL FOR="email"><b>Email id:</b></LABEL>
+            <INPUT TYPE="email"  PLACEHOLDER="Enter email" REQUIRED NAME="email">
+        </p>
+        <p style="font-size:18px">
+            <LABEL FOR="pass1"><b>Password:</b></LABEL>
+            <INPUT TYPE="password"  PLACEHOLDER="Enter Password" REQUIRED NAME="pass1">
+        </p>
+        <p style="font-size:18px">
+            <LABEL FOR="pass2"><b>Confirm Password:</b></LABEL>
+            <INPUT TYPE="password"  PLACEHOLDER="Enter Password" REQUIRED NAME="pass2">
+        </p>
+        <input type="checkbox" checked="checked" name="remember"> Remember me 
+        <p>
+        <a href="adminlogin.html" style="color:red">Already have account?Log in</a>
+            <div class="k">
+                <button type="submit" class="signupbtn">Sign Up</button>
+                 <button type="reset" class="cancelbtn">Cancel</button>
+                
+            </div>    
+        </p>
+   </form>
+   </div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-image: url("talk.png");
+    background-repeat: repeat;
+    background-size: cover;
+    color:black;
+    border: 7px;
+    
+}
+
+.P{
+    color:black;
+    
+}
+
+.t{
+    background-color: rgba(246, 252, 252, 0);
+    width: 800px;
+    border: 0px solid black;
+    padding: 10px;
+    margin: 17px;
+  }
+  
+
+ 
+  

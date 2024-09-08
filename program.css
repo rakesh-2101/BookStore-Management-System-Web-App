@@ -1,0 +1,90 @@
+body{
+    background-image: url("pr2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home
+{
+    padding: 10px;
+    
+    color: white;
+    text-align:center;
+    
+}
+
+input[type=text] {
+    width: 800px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+    background-color: black;
+    float: left;
+    color: white;
+    padding: 10px;
+    
+  }
+
+  
+
+.btn {
+    float: left;
+    
+    border: none;
+    color: #428bca;
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+ 
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 15%;
+    display: none; 
+  }
+  
+   
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    
+    color: white;
+    padding: 1px;
+  }
+  
+  
+  .show {
+    display: block;
+  }
+ 

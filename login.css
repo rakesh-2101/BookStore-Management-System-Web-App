@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/416250/7692e61e918391a5572f012fb02712223c20b605.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color:wheat;
+    padding-left: 430px;
+    border: 50px;
+  }
+  button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px;
+      margin: 8px 0;
+      border: 50px;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
+    
+    
+    
+    .signupbtn {
+      float: left;
+      width: 50%;
+    }
+    
+    .container {
+      padding: 16px;
+    }
+    .k{
+      border: 40px;
+      padding-right: 300px;
+    }

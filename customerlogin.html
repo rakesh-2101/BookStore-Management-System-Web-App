@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login</title>
+    <link rel="stylesheet" href="customerlogin.css">
+</head>
+<body>
+    <div class="imgcontainer">
+        <img src="m1.png" alt="Avatar" class="avatar">
+    </div>
+    <div class="a">
+    <h1>WELCOME!!</h1>
+    <h1>Customer Login</h1>
+    <form action="validation.php" method="POST" id="p">
+        <p style="font-size:18px">
+            <LABEL FOR="email"><b>Username:</b></LABEL>
+            <INPUT TYPE="email"  PLACEHOLDER="Enter Username" REQUIRED name="email" id="email">
+        </p>
+        <p style="font-size:18px">
+            <LABEL FOR="pass"><b>Password:</b></LABEL>
+            <INPUT TYPE="password"  PLACEHOLDER="Enter Password" REQUIRED name="pass" id="pass">
+        </p>
+        <p>
+            <div class="k">
+                <button type="submit" class="signupbtn" value="Submit" name="login">Log In</button><br>
+                <button type="" class="cancelbtn"><a href="login1.html">Cancel</a></button>
+               
+                
+            </div>  
+            
+        </p><br>
+        <div class="l">
+        <a href="chngpwd.php" style="color:red">Change Password</a>&nbsp;&nbsp;&nbsp;
+        
+        <a href="forgot.php" style="color:red">Forgot Password?</a>
+        </div>
+   </form>
+   </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login1.css">
+</head>
+<body>
+    <H1><b>Sign Up for Book House</b></H1>
+    <h3>Please fill in this form to create an account</h3>
+    <form action="registration.php" method="POST" >
+       <p style="font-size:18px">
+         <LABEL FOR="fname"><b>First Name:</b></LABEL>
+         <INPUT TYPE="TEXT"  PLACEHOLDER="Name" REQUIRED NAME="fname" id="fname">
+       </p>
+        <p style="font-size:18px">
+         <LABEL FOR="lname"><b>Last Name:</b></LABEL>
+         <INPUT TYPE="TEXT" PLACEHOLDER="Name" REQUIRED NAME="lname" id="lname">   
+       </p> 
+       <p style="font-size:18px">
+            <LABEL FOR="email"><b>Your Email:</b></LABEL>
+            <INPUT TYPE="EMAIL" PLACEHOLDER="Email" REQUIRED NAME="email" id="email">
+        </p>
+        <p style="font-size:18px">
+            <LABEL FOR="pass1"><b>Password:</b></LABEL>
+            <INPUT TYPE="PASSWORD" PLACEHOLDER="Password" required name="pass1" id="pass1"> 
+        </p>    
+        <p style="font-size:18px">
+            <LABEL FOR="pass2"><b>Repeat Password:</b></LABEL>
+            <INPUT TYPE="PASSWORD" PLACEHOLDER="Repeat Password" required name="pass2" id="pass2">
+        </p>
+        <P style="font-size:18px">
+            <LABEL FOR="mobile"><b>Mobile No:</b></LABEL>
+            <INPUT type="tel" placeholder="Moblie No" required name="mobile" id="mobile">
+        </P> 
+        <P style="font-size:18px">
+            <b>Gender:</b>
+            <LABEL FOR="male">
+            <INPUT TYPE="radio" required name="gender" value="male" id="male">Male</LABEL>
+            <LABEL FOR="female">
+            <INPUT TYPE="radio" required name="gender" value="female" id="female">Female</LABEL>  
+        </P>
+        <label style="font-size:18px">
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me<br>
+           
+        </label>
+        
+        <a href="customerlogin.html" style="color:red">Already have account?Log in</a>
+          
+       <div class="l">
+           
+        <button type="reset"  class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn" value="Submit" name="enter">Sign Up</button>
+
+       </div>
+    </form>
+</body>
+</html>

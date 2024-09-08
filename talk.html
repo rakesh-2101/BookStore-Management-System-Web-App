@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Talk</title>
+    <link rel="stylesheet" href="talk.css">
+</head>
+<body>
+
+    <div class="t">
+
+    
+        <H1><b><u>Lets Talk</u></b></H1>
+        <h2>Want to promote your book!!</h2>
+        <form action="talk.php" class="P" method="POST">
+            <LABEL FOR="name">YOUR NAME:</LABEL><br>
+            <INPUT TYPE="TEXT" PLACEHOLDER="NAME" REQUIRED NAME="name">
+            <P>
+                <LABEL FOR="email">YOUR EMAIL:</LABEL><br>
+                <INPUT TYPE="EMAIL"  id="EMAIL" PLACEHOLDER="EMAIL"  REQUIRED NAME="email">
+            </P> 
+            <P>
+                <LABEL FOR="mobileno">MOBILE NO:</LABEL><br>
+                <INPUT type="tel" id="MOBILE NO" placeholder="MOBILE NO" required name="mobileno">
+            </P>
+            <br> 
+            <P>
+                <LABEL FOR="book">BOOK CATEGORY:</LABEL>
+                  <select id="books" name="book">
+                      <option value="Astronomy">ASTRONOMY</option>
+                      <option value="comic">COMIC</option>
+                      <option value="Programming">PROGRAMMING</option>
+                  </select>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <LABEL FOR="books">BOOK TYPES:</LABEL>
+                  <select id="books" name="books">
+                      <option value="Physicalbook">PHYSICAL BOOK</option>
+                      <option value="Ebook">EBOOK</option>
+                  </select>
+            </P>
+            <br>   
+            <P>
+                <LABEL>BOOK DESCRIPTION(SHORT):</LABEL><br>
+                <textarea  id="MESSAGE" name="message" placeholder="Type here" rows:"50" cols:"30"></textarea>
+            </P>
+            <INPUT TYPE="SUBMIT" value="SUBMIT" > 
+        </form>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-image: url("feed.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border: 7px;
+    padding: 50px;
+}
+.P{
+    color:white;
+    border: 5px outset  black;
+    padding: 60px; 
+
+}

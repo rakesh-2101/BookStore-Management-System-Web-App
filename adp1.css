@@ -1,0 +1,36 @@
+body{
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dropdown{
+    float:left;
+  
+    
+}
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .d{
+    float: left;
+    padding: 5px;
+  }
+
+ 
+
+  
+

@@ -1,0 +1,6 @@
+body{
+    background-image: url("coverbill.png");
+    background-repeat: repeat;
+    background-size: cover;
+    color: yellowgreen;
+}

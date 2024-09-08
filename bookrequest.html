@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Request</title>
+    <link rel="stylesheet" href="bookrequest.css">
+</head>
+<body>
+
+    <div class="t">
+
+    
+        <H1><b><u>Book Request</u></b></H1>
+        <h2>Grab your favorite book!!</h2>
+        <form action="bookrequest.php" class="P" method="POST">
+            <LABEL FOR="name">NAME:</LABEL>
+            <INPUT TYPE="TEXT" PLACEHOLDER="NAME" REQUIRED NAME="name">
+            <P>
+                <LABEL FOR="email">EMAIL:</LABEL>
+                <INPUT TYPE="EMAIL"  id="EMAIL" PLACEHOLDER="EMAIL"  REQUIRED NAME="email">&nbsp;&nbsp;&nbsp;
+                <LABEL FOR="mobileno">MOBILE NO:</LABEL>
+                <INPUT type="tel" id="MOBILE NO" placeholder="MOBILE NO" required name="mobileno">
+            </P>
+            <p>
+                <LABEL FOR="bookname">BOOK NAME:</LABEL>
+                <INPUT TYPE="TEXT" PLACEHOLDER="NAME" REQUIRED NAME="bookname">&nbsp;&nbsp;&nbsp;
+                <LABEL FOR="authorname">AUTHOR NAME:</LABEL>
+                <INPUT TYPE="TEXT" PLACEHOLDER="NAME" REQUIRED NAME="authorname">
+
+            </p>
+            <P>
+                <LABEL FOR="BOOK">BOOK CATEGORY:</LABEL>
+                  <select id="books" name="book">
+                      <option value="Astronomy">ASTRONOMY</option>                     
+                      <option value="Comic">COMIC</option>
+                      <option value="Programming">PROGRAMMING</option>
+                  </select>
+                  &nbsp; &nbsp; &nbsp; &nbsp;
+                <LABEL FOR="BOOKS">BOOK TYPE:</LABEL>
+                  <select id="books" name="books">
+                      <option value="Physicalbook">PHYSICAL BOOK</option>
+                      <option value="Ebook">EBOOK</option>
+                  </select>
+            </P>
+            
+            <INPUT TYPE="SUBMIT" value="MAKE REQUEST" > 
+            
+        </form>
+        </div>
+    
+</body>
+</html>
